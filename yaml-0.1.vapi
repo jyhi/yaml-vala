@@ -1786,7 +1786,7 @@ public struct Emitter {
    * Emit a YAML document.
    *
    * The documen object may be generated using the ``Parser.load()`` function
-   * or the ``Document.Document()` function. The emitter takes the
+   * or the ``Document.Document()`` function. The emitter takes the
    * responsibility for the document object and destroys its content after
    * it is emitted. The document object is destroyed even if the function fails.
    *
