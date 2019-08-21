@@ -503,9 +503,9 @@ public struct Event {
    * ignored by the emitter.
    *
    * @param event                An empty event object.
-   * @param version_directive    The YAML directive value or ``NULL``.
-   * @param tag_directives_start The beginning of the TAG directives list.
-   * @param tag_directives_end   The end of the TAG directives list.
+   * @param version_directive    The %YAML directive value or ``NULL``.
+   * @param tag_directives_start The beginning of the %TAG directives list.
+   * @param tag_directives_end   The end of the %TAG directives list.
    * @param implicit             If the document start indicator is implicit.
    *
    * @return 1 if the function succeeded, 0 on error.
@@ -786,9 +786,9 @@ public struct Document {
    * Create a YAML document.
    *
    * @param document             An empty document object.
-   * @param version_directive    The YAML directive value or ``NULL``.
-   * @param tag_directives_start The beginning of the TAG directives list.
-   * @param tag_directives_end   The end of the TAG directives list.
+   * @param version_directive    The %YAML directive value or ``NULL``.
+   * @param tag_directives_start The beginning of the %TAG directives list.
+   * @param tag_directives_end   The end of the %TAG directives list.
    * @param start_implicit       If the document start indicator is implicit.
    * @param end_implicit         If the document end indicator is implicit.
    *
